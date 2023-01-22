@@ -1,0 +1,101 @@
+.big_navbar{
+    width: 100%;
+    height: 75px;
+    /* border:2px solid red; */
+    display: grid;
+    grid-template-columns: 20px 300px 350px 70px 60px;
+    column-gap: 160px;
+   justify-content: center;
+   align-content: center;
+}
+.small_boxes{
+    width: 120px;
+    height: 60px;
+    /* border: 2px solid blue ; */
+}
+#two_box{
+    width: 300px;
+}
+#three_box{
+    width: 300px;
+}
+.link{
+    width: 110px;
+    height: 55px;
+    font-size: 23px;
+}
+.main{
+    width: 100%;
+    height: 450px;
+    border: 2px solid green;
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/36/03/cartoon-hotel-reception-modern-lobby-vector-22533603.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    width: 100%;
+    height: 750px;
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: 520px 490px;
+    justify-content: center; 
+   align-content: space-around; 
+}
+.small_container{
+    width: 480px;
+    height: 700px;
+    border: 3px solid #fca311;
+}
+.last_footer{
+    width: 100%;
+    height: 80px;
+    /* border: 3px solid green; */
+    /* background-color: chartreuse; */
+    display: grid;
+    grid-template-columns: 250px 900px ;
+     column-gap: 200px;
+    justify-content: center; 
+   align-content: space-around;
+}
+.last_box{
+    width: 310px;
+    height: 70px;
+    /* border: 3px solid blue; */
+}
+#box_width{
+    width: 900px;
+    height: 70px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+     column-gap: 180px;
+    justify-content: center; 
+   align-content: space-around;  
+  
+  }
+  .footer_boxes{
+    width: 190px;
+    height: 340px;
+    /* border: 3px solid blue; */
+  }
+  .main_footer{
+    width: 100%;
+    height: 230px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 350px;
+   justify-content: safe;
+   align-content: flex-start;
+  }
+  .main_one{
+    width: 350px;
+    height: 200px;
+    /* border: 3px solid red; */
+  }
